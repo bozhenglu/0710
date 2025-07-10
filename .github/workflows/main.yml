@@ -6,7 +6,7 @@ jobs:
     name: env1
     runs-on: ubuntu-latest
     steps:
-    - uses: action/ceckout@v2
+    - uses: action/checkout@v2
     - name: Run my python
       run:
         python test.py
