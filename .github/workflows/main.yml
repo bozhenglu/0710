@@ -2,9 +2,9 @@ name: Ru python
 on:
   push:
   schedule:
-  - cron: "0 0 * * *"
+  - cron: "3 * * * *"
 jobs:
-  build:
+  build:       #job的name
     name: env1
     runs-on: ubuntu-latest
     steps:
